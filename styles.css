@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.instagram-link {
+  text-align: center;
+}
+
+.instagram-link a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #e1306c;
+  font-size: 24px;
+  padding: 15px 30px;
+  border: 2px solid #e1306c;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.instagram-link a:hover {
+  background-color: #e1306c;
+  color: white;
+}
+
+.instagram-link i {
+  margin-right: 10px;
+  font-size: 28px;
+}
+
+/* Мобильная версия */
+@media (max-width: 480px) {
+  .instagram-link a {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+
+  .instagram-link i {
+    font-size: 24px;
+  }
+}
